@@ -1,24 +1,27 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { PortfolioHeaderComponent } from './components/portfolio-header.component';
-import { PortfolioAboutComponent } from './components/portfolio-about.component';
-import { PortfolioExperienceComponent } from './components/portfolio-experience.component';
-import { PortfolioSkillsComponent } from './components/portfolio-skills.component';
-import { PortfolioFooterComponent } from './components/portfolio-footer.component';
+import { Component } from '@angular/core';
+import { NavComponent } from './components/nav/nav';
+import { HeroComponent } from './components/hero/hero';
+import { AboutComponent } from './components/about/about';
+import { SkillsComponent } from './components/skills/skills';
+import { ExperienceComponent } from './components/experience/experience';
+import { ProjectsComponent } from './components/projects/projects';
+import { EducationComponent } from './components/education/education';
+import { ContactComponent } from './components/contact/contact';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [
-    RouterOutlet,
-    PortfolioHeaderComponent,
-    PortfolioAboutComponent,
-    PortfolioExperienceComponent,
-    PortfolioSkillsComponent,
-    PortfolioFooterComponent
+    NavComponent,
+    HeroComponent,
+    AboutComponent,
+    SkillsComponent,
+    ExperienceComponent,
+    ProjectsComponent,
+    EducationComponent,
+    ContactComponent,
   ],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
-export class App {
-  protected readonly title = signal('profile-portfolio');
-}
+export class App {}

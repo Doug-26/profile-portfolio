@@ -1,0 +1,33 @@
+<section class="experience section" id="experience">
+  <div class="section-head" appReveal="slide-up">
+    <span class="eyebrow">Experience</span>
+    <h2>Where I've <span class="gradient-text">shipped</span>.</h2>
+    <p class="lede">A snapshot of the work, the upgrades, and the impact.</p>
+  </div>
+
+  <ol class="timeline">
+    @for (entry of profile.experience; track entry.company; let i = $index) {
+      <li class="t-item" appReveal="slide-up" [revealDelay]="60 * i">
+        <span class="t-dot" aria-hidden="true"></span>
+        <div class="t-card">
+          <header>
+            <div>
+              <h3>{{ entry.role }}</h3>
+              <p class="company">{{ entry.company }} · <span class="muted">{{ entry.location }}</span></p>
+            </div>
+            <span class="dates">{{ entry.start }} – {{ entry.end }}</span>
+          </header>
+          <ul class="bullets">
+            @for (bullet of entry.bullets; track bullet) {
+              <li>{{ bullet }}</li>
+            }
+          </ul>
+        </div>
+      </li>
+    }
+  </ol>
+
+  <p class="leadership" appReveal="fade">
+    <strong>Leadership.</strong> {{ profile.leadership }}
+  </p>
+</section>
