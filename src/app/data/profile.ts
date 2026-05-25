@@ -163,6 +163,28 @@ export const profile: Profile = {
       initial: 'M',
     },
     {
+      title: 'EventSync',
+      subtitle: 'Personal Project',
+      summary:
+        'A full-stack event management platform where organizers create events, generate shareable invite links, and collect RSVPs from guests — no sign-up required for invitees.',
+      tags: ['Full-Stack', 'Events', 'RSVP', 'Shareable Links', 'Angular', '.NET', 'Auth0'],
+      repoUrl: 'https://github.com/Doug-26/EventSync',
+      accent: 'orange',
+      context: 'personal',
+      initial: 'E',
+    },
+    {
+      title: 'TicketFlow',
+      subtitle: 'Personal Project',
+      summary:
+        'A small internal support-ticket management app built end-to-end as a learning project. Employees raise tickets against a department, an admin or department head assigns them, and the assignee changes status as they work through it. Status changes are audited.',
+      tags: ['Full-Stack', 'Ticket Management', 'Audit Trail', 'Angular', '.NET'],
+      repoUrl: 'https://github.com/Doug-26/TicketFlow',
+      accent: 'pink',
+      context: 'personal',
+      initial: 'T',
+    },
+    {
       title: 'Pet Manager 2000',
       subtitle: 'Personal Project',
       summary:
@@ -172,17 +194,6 @@ export const profile: Profile = {
       accent: 'pink',
       context: 'personal',
       initial: 'P',
-    },
-    {
-      title: 'EventSync',
-      subtitle: 'Personal Project',
-      summary:
-        'A full-stack event management platform where organizers create events, generate shareable invite links, and collect RSVPs from guests — no sign-up required for invitees.',
-      tags: ['Full-Stack', 'Events', 'RSVP', 'Shareable Links'],
-      repoUrl: 'https://github.com/Doug-26/EventSync',
-      accent: 'orange',
-      context: 'personal',
-      initial: 'E',
     },
     {
       title: 'Klima',
