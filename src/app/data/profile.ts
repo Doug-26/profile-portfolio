@@ -75,28 +75,33 @@ export const profile: Profile = {
   resumeDownloadName: 'Christian-Jay-De-La-Cruz-Resume.pdf',
   tagline:
     'I build fast, accessible web & mobile experiences — modernizing Angular/Ionic apps, shipping .NET-backed features, and automating mobile delivery.',
-  bio: 'Software engineer with 4+ years at Accenture, focused on Angular, Ionic, and .NET. I lead framework modernizations, build responsive UI components against REST APIs, and ship mobile build automation through Azure Pipelines and Firebase. I enjoy turning messy upgrade paths into clean, maintainable codebases — and helping teammates pick up new tech along the way.',
+  bio: 'Software engineer with 4+ years at Accenture, focused on Angular, Ionic, and .NET. I lead framework modernizations, build responsive UI components against REST APIs, and ship mobile build automation through Azure Pipelines and Firebase. I also design low-code business apps on Microsoft Power Platform with Power Apps and Power Automate. I enjoy turning messy upgrade paths into clean, maintainable codebases — and helping teammates pick up new tech along the way.',
   yearsAtAccenture: '4+',
   skillGroups: [
     {
       name: 'Frontend',
       icon: 'layout',
-      items: ['HTML', 'CSS', 'TypeScript', 'Angular', 'Responsive Design'],
+      items: ['Angular', 'TypeScript', 'HTML', 'CSS', 'Responsive Design'],
     },
     {
       name: 'Backend & Database',
       icon: 'server',
-      items: ['.NET Framework', 'SQL Server'],
+      items: ['.NET Core', 'SQL Server', 'API Integration', 'Unit Testing'],
     },
     {
-      name: 'Cloud',
+      name: 'Debugging & Support',
+      icon: 'bug',
+      items: ['Root-Cause Analysis', 'Defect Resolution', 'Azure DevOps', 'ServiceNow', 'Technical Documentation'],
+    },
+    {
+      name: 'Cloud & Tools',
       icon: 'cloud',
-      items: ['AWS', 'Azure', 'Firebase'],
+      items: ['AWS', 'Azure', 'Firebase', 'Git', 'Postman', 'Visual Studio', 'VS Code'],
     },
     {
-      name: 'Development Tools',
-      icon: 'wrench',
-      items: ['Git', 'VS Code', 'Visual Studio', 'Postman', 'Power Apps'],
+      name: 'Low-Code Platforms',
+      icon: 'blocks',
+      items: ['Microsoft Power Apps', 'Power Automate'],
     },
     {
       name: 'AI Tools',
@@ -106,7 +111,7 @@ export const profile: Profile = {
     {
       name: 'Collaboration',
       icon: 'users',
-      items: ['ServiceNow', 'Code Reviews', 'Technical Docs'],
+      items: ['Agile Teams', 'Code Reviews', 'Cross-functional Communication'],
     },
   ],
   experience: [
@@ -120,8 +125,9 @@ export const profile: Profile = {
         'Led the Angular v15→v20 and Ionic v4→v8 upgrades across multiple projects, improving performance and cutting long-standing technical debt.',
         'Designed and shipped responsive Angular UI components wired to RESTful and .NET Core APIs for consistent web/mobile experiences.',
         'Contributed to full-stack features — authentication, data management, reporting — and helped enhance .NET backend modules with unit tests and API version upgrades.',
+        'Built and deployed low-code business applications with Microsoft Power Apps, integrated with SharePoint/SQL Server and automated approval workflows and notifications through Power Automate.',
         'Built mobile build distribution automation with Azure Pipelines and Firebase CLI, getting builds to testers faster and more reliably.',
-        'Resolved and tracked defects through Azure DevOps and managed incidents and requests in ServiceNow.',
+        'Resolved and tracked defects through Azure DevOps and managed incidents and requests in ServiceNow, using root-cause analysis to reproduce issues and validate fixes before release.',
         'Authored technical documentation for components, API integration patterns, and deployment processes to speed up onboarding and cross-team collaboration.',
         'Conducted usability testing and translated user feedback into design improvements that lifted satisfaction scores.',
       ],
@@ -143,6 +149,16 @@ export const profile: Profile = {
     'Served as a leader for the Hybrid Mobile App — providing knowledge transition, technical guidance, and hands-on training to ensure smooth onboarding and consistent delivery.',
   projects: [
     {
+      title: 'Salary Calibration Tool',
+      subtitle: 'Accenture · Power Platform',
+      summary:
+        'A Canvas app built on Microsoft Power Platform to manage candidate compensation evaluation and approval. Power Apps provides the UI for entering, reviewing, and updating salary data, connected to structured sources (SharePoint/Dataverse) for candidate info, compensation details, and approval statuses. Power Automate handles approval workflows — routing requests to the right approvers, sending notifications, and tracking decisions. The system enforces role-based access control, validates compensation against predefined rules, and maintains audit trails for transparency and compliance.',
+      tags: ['Power Apps', 'Power Automate', 'Dataverse', 'SharePoint', 'Approval Workflows', 'RBAC'],
+      accent: 'violet',
+      context: 'work',
+      initial: 'S',
+    },
+    {
       title: 'Always Safe App',
       subtitle: 'Accenture · Mobile Operations',
       summary:
@@ -158,7 +174,7 @@ export const profile: Profile = {
       summary:
         'Built and documented an internal deployment approach for distributing mobile builds through Azure Pipelines and Firebase App Distribution. Standardized pipeline steps and distribution checks — upload, verification, and tester workflow — to make releases repeatable for the Mobile Operations team.',
       tags: ['Azure Pipelines', 'Firebase App Distribution', 'DevOps', 'CI/CD'],
-      accent: 'blue',
+      accent: 'violet',
       context: 'work',
       initial: 'M',
     },
@@ -169,7 +185,7 @@ export const profile: Profile = {
         'A full-stack event management platform where organizers create events, generate shareable invite links, and collect RSVPs from guests — no sign-up required for invitees.',
       tags: ['Full-Stack', 'Events', 'RSVP', 'Shareable Links', 'Angular', '.NET', 'Auth0'],
       repoUrl: 'https://github.com/Doug-26/EventSync',
-      accent: 'orange',
+      accent: 'blue',
       context: 'personal',
       initial: 'E',
     },
@@ -180,7 +196,7 @@ export const profile: Profile = {
         'A small internal support-ticket management app built end-to-end as a learning project. Employees raise tickets against a department, an admin or department head assigns them, and the assignee changes status as they work through it. Status changes are audited.',
       tags: ['Full-Stack', 'Ticket Management', 'Audit Trail', 'Angular', '.NET'],
       repoUrl: 'https://github.com/Doug-26/TicketFlow',
-      accent: 'pink',
+      accent: 'blue',
       context: 'personal',
       initial: 'T',
     },
@@ -191,7 +207,7 @@ export const profile: Profile = {
         'A pet store queue management web app built with Angular and Tailwind CSS. Staff manage a kanban-style board to track pets through the queue, while a separate customer-facing display keeps owners informed in real time.',
       tags: ['Angular', 'Tailwind CSS', 'Kanban', 'Realtime'],
       liveUrl: 'https://doug-26.github.io/Pet-Manager-2000/',
-      accent: 'pink',
+      accent: 'blue',
       context: 'personal',
       initial: 'P',
     },
@@ -202,7 +218,7 @@ export const profile: Profile = {
         'A mobile-responsive Angular weather forecast app with a colorful sunset-themed UI. Search any city in the world to instantly see temperature, humidity, wind speed, pressure, and more.',
       tags: ['Angular', 'Weather API', 'Responsive', 'Vercel'],
       liveUrl: 'https://weather-forecast-app-sigma-nine.vercel.app/',
-      accent: 'red',
+      accent: 'blue',
       context: 'personal',
       initial: 'K',
     },
