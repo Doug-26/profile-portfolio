@@ -148,36 +148,36 @@ export const profile: Profile = {
   leadership:
     'Served as a leader for the Hybrid Mobile App — providing knowledge transition, technical guidance, and hands-on training to ensure smooth onboarding and consistent delivery.',
   projects: [
-    {
-      title: 'Salary Calibration Tool',
-      subtitle: 'Accenture · Power Platform',
-      summary:
-        'A Canvas app built on Microsoft Power Platform to manage candidate compensation evaluation and approval. Power Apps provides the UI for entering, reviewing, and updating salary data, connected to structured sources (SharePoint/Dataverse) for candidate info, compensation details, and approval statuses. Power Automate handles approval workflows — routing requests to the right approvers, sending notifications, and tracking decisions. The system enforces role-based access control, validates compensation against predefined rules, and maintains audit trails for transparency and compliance.',
-      tags: ['Power Apps', 'Power Automate', 'Dataverse', 'SharePoint', 'Approval Workflows', 'RBAC'],
-      accent: 'violet',
-      context: 'work',
-      initial: 'S',
-    },
-    {
-      title: 'Always Safe App',
-      subtitle: 'Accenture · Mobile Operations',
-      summary:
-        'Internal Accenture mobile app where I handled modernization, release support, and production readiness. Led framework upgrades across major Angular/Ionic/Capacitor versions, refactored deprecated patterns, and supported stage/prod testing — including push-notification behavior across iOS and Android — while keeping the app compliant through ongoing security-scan remediation.',
-      tags: ['Angular', 'Ionic', 'Capacitor', 'iOS', 'Android', 'Mobile Ops'],
-      accent: 'violet',
-      context: 'work',
-      initial: 'A',
-    },
-    {
-      title: 'Mobile App Release & Deployment Automation',
-      subtitle: 'Accenture · DevOps Enablement',
-      summary:
-        'Built and documented an internal deployment approach for distributing mobile builds through Azure Pipelines and Firebase App Distribution. Standardized pipeline steps and distribution checks — upload, verification, and tester workflow — to make releases repeatable for the Mobile Operations team.',
-      tags: ['Azure Pipelines', 'Firebase App Distribution', 'DevOps', 'CI/CD'],
-      accent: 'violet',
-      context: 'work',
-      initial: 'M',
-    },
+    // {
+    //   title: 'Salary Calibration Tool',
+    //   subtitle: 'Accenture · Power Platform',
+    //   summary:
+    //     'A Canvas app built on Microsoft Power Platform to manage candidate compensation evaluation and approval. Power Apps provides the UI for entering, reviewing, and updating salary data, connected to structured sources (SharePoint/Dataverse) for candidate info, compensation details, and approval statuses. Power Automate handles approval workflows — routing requests to the right approvers, sending notifications, and tracking decisions. The system enforces role-based access control, validates compensation against predefined rules, and maintains audit trails for transparency and compliance.',
+    //   tags: ['Power Apps', 'Power Automate', 'Dataverse', 'SharePoint', 'Approval Workflows', 'RBAC'],
+    //   accent: 'violet',
+    //   context: 'work',
+    //   initial: 'S',
+    // },
+    // {
+    //   title: 'Always Safe App',
+    //   subtitle: 'Accenture · Mobile Operations',
+    //   summary:
+    //     'Internal Accenture mobile app where I handled modernization, release support, and production readiness. Led framework upgrades across major Angular/Ionic/Capacitor versions, refactored deprecated patterns, and supported stage/prod testing — including push-notification behavior across iOS and Android — while keeping the app compliant through ongoing security-scan remediation.',
+    //   tags: ['Angular', 'Ionic', 'Capacitor', 'iOS', 'Android', 'Mobile Ops'],
+    //   accent: 'violet',
+    //   context: 'work',
+    //   initial: 'A',
+    // },
+    // {
+    //   title: 'Mobile App Release & Deployment Automation',
+    //   subtitle: 'Accenture · DevOps Enablement',
+    //   summary:
+    //     'Built and documented an internal deployment approach for distributing mobile builds through Azure Pipelines and Firebase App Distribution. Standardized pipeline steps and distribution checks — upload, verification, and tester workflow — to make releases repeatable for the Mobile Operations team.',
+    //   tags: ['Azure Pipelines', 'Firebase App Distribution', 'DevOps', 'CI/CD'],
+    //   accent: 'violet',
+    //   context: 'work',
+    //   initial: 'M',
+    // },
     {
       title: 'EventSync',
       subtitle: 'Personal Project',
@@ -221,6 +221,17 @@ export const profile: Profile = {
       accent: 'blue',
       context: 'personal',
       initial: 'K',
+    },
+    {
+      title: 'Enquiry Management App',
+      subtitle: 'Personal Project',
+      summary:
+        'A full-stack business tool for capturing and tracking customer enquiries. Staff log enquiries with customer details and link them to a service catalogue, then monitor progress through status updates. Built with Angular 21 and ASP.NET Core 10 Web API, backed by SQL Server via Entity Framework Core.',
+      tags: ['Full-Stack', 'Angular', '.NET', 'SQL Server', 'EF Core', 'Swagger'],
+      repoUrl: 'https://github.com/Doug-26/enquiry-app',
+      accent: 'blue',
+      context: 'personal',
+      initial: 'Q',
     },
   ],
 };
