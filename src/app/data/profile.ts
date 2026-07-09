@@ -184,7 +184,7 @@ export const profile: Profile = {
       summary:
         'A full-stack event management platform where organizers create events, generate shareable invite links, and collect RSVPs from guests — no sign-up required for invitees.',
       tags: ['Full-Stack', 'Events', 'RSVP', 'Shareable Links', 'Angular', '.NET', 'Auth0'],
-      repoUrl: 'https://github.com/Doug-26/EventSync',
+      liveUrl: 'https://ashy-coast-07caf1200.7.azurestaticapps.net/',
       accent: 'blue',
       context: 'personal',
       initial: 'E',
@@ -195,7 +195,7 @@ export const profile: Profile = {
       summary:
         'A small internal support-ticket management app built end-to-end as a learning project. Employees raise tickets against a department, an admin or department head assigns them, and the assignee changes status as they work through it. Status changes are audited.',
       tags: ['Full-Stack', 'Ticket Management', 'Audit Trail', 'Angular', '.NET'],
-      liveUrl: 'https://ashy-coast-07caf1200.7.azurestaticapps.net/',
+      repoUrl: 'https://github.com/Doug-26/TicketFlow',
       accent: 'blue',
       context: 'personal',
       initial: 'T',
